@@ -6,10 +6,29 @@
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title>
-    </title>
+    <title>Triangle Tracker</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Triangle Tracker</h1>
 
+      <form id="triangle">
+        <div class="form-group">
+          <label for="triangle">Enter 3 side lengths and find out what type of triangle it is:</label>
+          <input id="sideA" type="number">
+          <input id="sideB" type="number">
+          <input id="sideC" type="number">
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <br>
+
+      <div class ="hidden" id="result">
+        <p><span class="length"></span>, then it is<span class="type"></span>triangle.</p>
+      </div>
+
+    </div>
   </body>
 </html>
