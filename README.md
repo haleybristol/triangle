@@ -1,4 +1,4 @@
-# _Triangle Tracker}_
+# _Triangle Tracker_
 
 #### By _**Haley Bristol**_
 
